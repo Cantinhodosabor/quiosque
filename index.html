@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantinho do Sabor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="image-PhotoRoom (1).png" type="image/x-icon">
+    
+</head>
+
+<body>
+    
+    <header>
+        <h1>Cantinho do Sabor</h1>
+        <p>Sua experiência gastronômica única</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#hamburguers">Hamburguers</a></li>
+            <li><a href="#pasteis">Pasteis</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#porções">Porções</a></li>
+            <li><a href="#milkshake">Milk Shakes</a></li>
+            <li><a href="#churros">Churros</a></li>
+        </ul>
+    </nav>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="hamburguers" class="menu-section">
+
+        <h2 class="title">Hamburguer bovino artesanal (150GR)</h2>
+
+        <div class="modal" id="Hamburguer1-modal"></div>
+        <div class="modal" id="Hamburguer2-modal"></div>
+        <div class="modal" id="Hamburguer3-modal"></div>
+        <div class="modal" id="Hamburguer4-modal"></div>
+        <div class="modal" id="Hamburguer5-modal"></div>
+        <div class="modal" id="Hamburguer6-modal"></div>
+        <div class="modal" id="Hamburguer7-modal"></div>
+        
+
+        <div class="menu">
+            <div class="menu-item" id="Hamburguer1">
+                <h3>X-burguer</h3>
+                <p>Descrição: Pão, molho, hamburguer, queijo e peito de peru.</p>
+                <p class="preco">Preço: R$20,00</p>
+                <button onclick="abrirModal('X-burguer', 20.00, 'Hamburguer1', 'hamburguer')">Adicionar ao Carrinho</button>
+
+            </div>
+
+            <div class="menu-item" id="Hamburguer2">
+                <h3>X-salada</h3>
+                <p>Descrição: Pão, alface, tomate, , molho, hamburguer, queijo e peito de peru.</p>
+                <p>Preço: R$22,00</p>
+                <button onclick="abrirModal('X-salada', 22.00, 'Hamburguer2', 'hamburguer')">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="menu-item" id="Hamburguer3">
+                <h3>X-egg</h3>
+                <p>Descrição: Pão, alface, tomate, molho, hamburguer, queijo e peito de peru.</p>
+                <p>Preço: R$24,00</p>
+                
+                <button onclick="abrirModal('X-egg', 24.00, 'Hamburguer3', 'hamburguer')">Adicionar ao Carrinho</button>
+                
+            </div>
+
+            <div class="menu-item" id="Hamburguer4">
+                <h3>X-duplo</h3>
+                <p>Descrição: Pão, molho, 2 hamburguers, queijo e peito de peru.</p>
+                <p>Preço: R$27,00</p>
+                
+                <button onclick="abrirModal('X-duplo', 27.00, 'Hamburguer4', 'hamburguer')">Adicionar ao Carrinho</button>
+                
+            </div>
+
+            <div class="menu-item" id="Hamburguer5">
+                <h3>X-burguer de frango</h3>
+                <p>Descrição: Pão, molho, hamburguer de frango, queijo e peito de peru. </p>
+                <p>Preço: R$20,00</p>
+                
+                <button onclick="abrirModal('X-burguer de frango', 20.00, 'Hamburguer5', 'hamburguer')">Adicionar ao Carrinho</button>
+                
+            </div>
+
+            <div class="menu-item" id="Hamburguer6">
+                <h3>X-frango</h3>
+                <p>Descrição: Pão, alface, tomate, molho, hamburguer, queijo e peito de peru.</p>
+                <p>Preço: R$25,00</p>
+                
+                <button onclick="abrirModal('X-frango', 25.00, 'Hamburguer6', 'hamburguer')">Adicionar ao Carrinho</button>
+                
+            </div>
+
+            <div class="menu-item" id="Hamburguer7">
+                <h3>X-filé de frango</h3>
+                <p>Descrição: Pão, alface, tomate, molho, filé de frango, queijo e peito de peru.</p>
+                <p>Preço: R$22,00</p>
+                
+                <button onclick="abrirModal('X-filé de frango', 22.00, 'Hamburguer7', 'hamburguer')">Adicionar ao Carrinho</button>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <section id="pasteis" class="menu-section">
+
+        <h2 class="title">Pasteis</h2>
+
+        <div class="modal" id="pastel1-modal"></div>
+        <div class="modal" id="pastel2-modal"></div>
+        <div class="modal" id="pastel3-modal"></div>
+        <div class="modal" id="pastel4-modal"></div>
+        <div class="modal" id="pastel5-modal"></div>
+        <div class="modal" id="pastel6-modal"></div>
+        <div class="modal" id="pastel7-modal"></div>
+        <div class="modal" id="pastel8-modal"></div>
+        <div class="modal" id="pastel9-modal"></div>
+        <div class="modal" id="pastel10-modal"></div>
+        <div class="modal" id="pastel11-modal"></div>
+        <div class="modal" id="pastel12-modal"></div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel1">
+                <h3>Pastel de carne</h3>
+                <p>Preço: R$13,00</p>
+                <button onclick="abrirModal('Pastel de carne', 13.00, 'pastel1')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel2">
+                <h3>Pastel de frango</h3>
+                <p>Preço: R$13,00</p>
+                <button onclick="abrirModal('Pastel de frango', 13.00, 'pastel2')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel3">
+                <h3>Pastel de queijo</h3>
+                <p>Preço: R$13,00</p>
+                <button onclick="abrirModal('Pastel de queijo', 13.00, 'pastel3')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel4">
+                <h3>Pastel de carne com queijo</h3>
+                <p>Preço: R$15,00</p>
+                <button onclick="abrirModal('Pastel de carne com queijo', 15.00, 'pastel4')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel5">
+                <h3>Pastel de frango com queijo</h3>
+                <p>Preço: R$15,00</p>
+                <button onclick="abrirModal('Pastel de frango com queijo', 15.00, 'pastel5')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel6">
+                <h3>Pastel de frango com catupiry</h3>
+                <p>Preço: R$15,00</p>
+                <button onclick="abrirModal('Pastel de frango com catupiry', 15.00, 'pastel6')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel7">
+                <h3>Pastel de palmito</h3>
+                <p>Preço: R$15,00</p>
+                <button onclick="abrirModal('Pastel de palmito', 15.00, 'pastel7')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel8">
+                <h3>Pastel de palmito com queijo</h3>
+                <p>Preço: R$18,00</p>
+                <button onclick="abrirModal('Pastel de palmito com queijo', 18.00, 'pastel8')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel9">
+                <h3>Pastel de palmito com catupiry</h3>
+                <p>Preço: R$18,00</p>
+                <button onclick="abrirModal('Pastel de palmito com catupiry', 18.00, 'pastel9')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel10">
+                <h3>Pastel de pizza</h3>
+                <p>Preço: R$18,00</p>
+                <button onclick="abrirModal('Pastel de pizza', 18.00, 'pastel10')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel11">
+                <h3>Pastel de banana com nutella e canela</h3>
+                <p>Preço: R$17,00</p>
+                <button onclick="abrirModal('Pastel de banana com nutella e canela', 17.00, 'pastel11')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="pastel12">
+                <h3>Pastel de banana com canela, leite condensado e queijo</h3>
+                <p>Preço: R$15,00</p>
+                <button onclick="abrirModal('Pastel de banana com canela, leite condensado e queijo', 15.00, 'pastel12')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section id="bebidas" class="menu-section">
+
+        <h2 class="title">Bebidas</h2>
+
+        <div class="modal" id="bebida1-modal"></div>
+        <div class="modal" id="bebida2-modal"></div>
+        <div class="modal" id="bebida3-modal"></div>
+        <div class="modal" id="bebida4-modal"></div>
+        <div class="modal" id="bebida5-modal"></div>
+        <div class="modal" id="bebida6-modal"></div>
+        <div class="modal" id="bebida7-modal"></div>
+        <div class="modal" id="bebida8-modal"></div>
+        <div class="modal" id="bebida9-modal"></div>
+        <div class="modal" id="bebida10-modal"></div>
+        <div class="modal" id="bebida11-modal"></div>
+        <div class="modal" id="bebida12-modal"></div>
+        <div class="modal" id="bebida13-modal"></div>
+        <div class="modal" id="bebida14-modal"></div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida1">
+                <h3>Suco natural de abacaxi com hortelã</h3>
+                <p>Preço jarra: R$15,00</p>
+                <button onclick="abrirModal('Suco natural de abacaxi com hortelã', 15.00, 'bebida1')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida2">
+                <h3>Suco natural de laranja</h3>
+                <p>Preço jarra: R$15,00</p>
+                <button onclick="abrirModal('Suco natural laranja', 15.00, 'bebida2')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida3">
+                <h3>Suco natural manga</h3>
+                <p>Preço jarra: R$15,00</p>
+                <button onclick="abrirModal('Suco natural de manga', 15.00, 'bebida3')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida4">
+                <h3>Suco natural de maracujá</h3>
+                <p>Preço jarra: R$15,00</p>
+                <button onclick="abrirModal('Suco natural de maracujá', 15.00, 'bebida4')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida5">
+                <h3>Suco natural de cupuaçu</h3>
+                <p>Preço jarra: R$15,00</p>
+                <button onclick="abrirModal('Suco natural de cupuaçu', 15.00, 'bebida5')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida14">
+                <h3>Suco natural de cupuaçu com leite</h3>
+                <p>Preço jarra: R$18,00</p>
+                <button onclick="abrirModal('Suco natural de cupuaçu com leite', 18.00, 'bebida14')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida6">
+                <h3>Copo caldo de cana com limão</h3>
+                <p>Preço: R$8,00</p>
+                <button onclick="abrirModal('Copo caldo de cana com limão', 8.00, 'bebida6')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida7">
+                <h3>Copo caldo de cana com abacaxi</h3>
+                <p>Preço: R$9,00</p>
+                <button onclick="abrirModal('Copo caldo de cana com abacaxi', 9.00, 'bebida7')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida8">
+                <h3>Água natural</h3>
+                <p>Preço: R$2,50</p>
+                <button onclick="abrirModal('Agua natural', 2.50, 'bebida8')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida9">
+                <h3>Água com gás</h3>
+                <p>Preço: R$3,00</p>
+                <button onclick="abrirModal('Água com gás', 3.00, 'bebida9')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida10">
+                <h3>Guaraná lata</h3>
+                <p>Preço: R$5,00</p>
+                <button onclick="abrirModal('Guaraná lata', 5.00, 'bebida10')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida11">
+                <h3>Coca cola lata</h3>
+                <p>Preço: R$5,00</p>
+                <button onclick="abrirModal('Coca cola lata', 5.00, 'bebida11')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida12">
+                <h3>Coca cola 600ml</h3>
+                <p>Preço: R$6,50</p>
+                <button onclick="abrirModal('Coca cola 600ml', 6.50, 'bebida12')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="bebida13">
+                <h3>Coca cola 2 litros</h3>
+                <p>Preço: R$12,00</p>
+                <button onclick="abrirModal('Coca cola 2 litros', 12.00, 'bebida13')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="porções" class="menu-section">
+
+        <h2 class="title">Porções</h2>
+    
+        <div class="modal" id="porção1-modal"></div>
+        <div class="modal" id="porção2-modal"></div>
+        <div class="modal" id="porção3-modal"></div>
+        <div class="modal" id="porção4-modal"></div>
+        <div class="modal" id="porção5-modal"></div>
+        <div class="modal" id="porção6-modal"></div>
+    
+        <div class="menu">
+            <div class="menu-item" id="porção1">
+                <h3>Frango à passarinho 600g</h3>
+                <p>Preço: R$32,00</p>
+                <button onclick="abrirModal('Frango à passarinho 600g', 32.00, 'porção1')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="porção2">
+                <h3>Iscas de tilápia 400g</h3>
+                <p>Preço: R$52,00</p>
+                <button onclick="abrirModal('Iscas de tilápia 400g', 52.00, 'porção2')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="porção3">
+                <h3>Costelinha de tambaqui 400g</h3>
+                <p>Preço: R$55,00</p>
+                <button onclick="abrirModal('Costelinha de tambaqui 400g', 55.00, 'porção3')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="porção4">
+                <h3>Fritas 500g</h3>
+                <p>Preço: R$20,00</p>
+                <button onclick="abrirModal('Fritas 500g', 20.00, 'porção4')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="porção5">
+                <h3>Fritas com queijo 500g</h3>
+                <p>Preço: R$25,00</p>
+                <button onclick="abrirModal('Fritas com queijo 500g', 25.00, 'porção5')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item" id="porção6">
+                <h3>Fritas com catupiry 500g</h3>
+                <p>Preço: R$25,00</p>
+                <button onclick="abrirModal('Fritas com catupiry 500g', 25.00, 'porção6')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<section id="milkshake" class="menu-section">
+
+    <h2 class="title">Milk shakes</h2>
+
+    <div class="modal" id="milk1-modal"></div>
+    <div class="modal" id="milk2-modal"></div>
+    <div class="modal" id="milk3-modal"></div>
+
+
+    <div class="menu">
+        <div class="menu-item" id="milk1">
+            <h3>Milk shake 300ml</h3>
+            <p>Preço: R$12,00</p>
+            <button onclick="abrirModal('Milk shake 300ml', 12.00, 'milk1')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item" id="milk2">
+            <h3>Milk shake 400ml</h3>
+            <p>Preço: R$15,00</p>
+            <button onclick="abrirModal('Milk shake 400ml', 15.00, 'milk2')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item" id="milk3">
+            <h3>Milk shake trufado</h3>
+            <p>Preço: R$18,00</p>
+            <button onclick="abrirModal('Milk shake trufado', 18.00, 'milk3')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<section id="churros" class="menu-section">
+
+    <h2 class="title">Churros gourmet</h2>
+
+    <div class="modal" id="churros1-modal"></div>
+    <div class="modal" id="churros2-modal"></div>
+
+
+    <div class="menu">
+        <div class="menu-item" id="churros1">
+            <h3>Churros de doce de leite</h3>
+            <p>Preço: R$11,00</p>
+            <button onclick="abrirModal('Churros de doce de leite', 11.00, 'churros1')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item" id="churros2">
+            <h3>Churros de nutella</h3>
+            <p>Preço: R$15,00</p>
+            <button onclick="abrirModal('Churros de nutella', 15.00, 'churros2')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<div id="carrinho-container">
+    <p id="total-carrinho">Total do Carrinho: R$0.00</p>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+</div>
+
+    <section class="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao Cantinho do Sabor, onde buscamos oferecer experiências gastronômicas únicas. Nossos chefs talentosos preparam pratos deliciosos com ingredientes frescos e de alta qualidade. Estamos comprometidos em proporcionar momentos especiais aos nossos clientes. Venha nos visitar e descubra o sabor autêntico!</p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h2>Entre em Contato</h2>
+                <p>Whatsapp: (41) 9789-3785</p>
+            </div>
+            <div class="social-media">
+                <h2>Siga-nos</h2>
+                <a id="insta" href="https://instagram.com/cantinho_do_sabor1646?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img id="insta" src="insta.jpeg" alt="Instagram"></a>
+            </div>
+        </div>
+        <p>&copy; 2023 Cantinho do Sabor</p>
+    </footer>
+
+
+
+    <script src="seu-script.js"></script>
+</body>
+</html>
